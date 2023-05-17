@@ -152,6 +152,36 @@ nav > ul > li > a {
   text-align: justify;
 }
 
+#clientSlider {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+#nuestrosServicios {
+  background-color: #3b39a5;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nuestrosServicios > * {
+  margin-top: 3vh;
+}
+
+#botonServicios {
+  width: 30%;
+  background-color: #1d1e23;
+}
+
+.card {
+   background-color: #dfe0fe;
+}
 
 
 
