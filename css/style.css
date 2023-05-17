@@ -1,0 +1,160 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background-color: #B1B1E0;
+}
+
+.alineacion {
+  padding: 10vh 10vw 1vh 10vw;
+}
+
+.ultraNegrita {
+  font-weight: bolder;
+}
+
+.negrita {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #3B39A5;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* HEADER */
+
+header, nav {
+  width: 100%;
+  height: 15vh;
+  position: fixed;
+  z-index: 1000;
+  background-color: #B1B1E0;
+  top: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+nav > #branding {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+nav > #branding > img {
+  max-width: 100%;
+  width: 65%;
+}
+
+nav > ul {
+  border-radius: 30px;
+  box-shadow: 0px 0px 4px 0px rgba(19, 20, 20, 0.4);
+  background-color: #c8c8ee;
+  padding: 1rem;
+  flex-basis: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > ul > li {
+  list-style: none;
+  font-weight: bold;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+/* HERO SECTION */
+
+#hero {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+#heroTextDiv {
+  flex-basis: 45%;
+}
+
+#heroTextDiv > p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* QUIENES SOMOS */
+
+#quienesSomos {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  background-color: white;
+  align-items: flex-start;
+}
+
+#quienesSomos > section {
+  flex-basis: 50%;
+}
+
+#quienesSomosFoto > img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+#quienesSomosTexto {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
