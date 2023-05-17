@@ -28,7 +28,7 @@ body {
 }
 
 .alineacion {
-  padding: 10vh 10vw 1vh 10vw;
+  padding: 10vh 10vw 10vh 10vw;
 }
 
 .ultraNegrita {
@@ -152,6 +152,8 @@ nav > ul > li > a {
   text-align: justify;
 }
 
+/* CLIENT SLIDER  */
+
 #clientSlider {
   background-color: white;
   display: flex;
@@ -159,7 +161,10 @@ nav > ul > li > a {
   justify-content: center;
   align-items: center;
   padding-top: 10vh;
+  padding-bottom: 10vh;
 }
+
+/* NUESTROS SERVICIOS */
 
 #nuestrosServicios {
   background-color: #3b39a5;
@@ -168,6 +173,7 @@ nav > ul > li > a {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  height: 100vh;
 }
 
 #nuestrosServicios > * {
@@ -177,10 +183,43 @@ nav > ul > li > a {
 #botonServicios {
   width: 30%;
   background-color: #1d1e23;
+  margin-top: 5vh ;
+}
+
+.botonCard {
+  background-color: #1d1e23;
 }
 
 .card {
    background-color: #dfe0fe;
+}
+
+.equal-image {
+  object-fit: cover;
+  height: 50%; /* Ajusta la altura deseada */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #1d1e23;
+  color: white;
+}
+
+.formLabel {
+  color: gray;
+}
+
+#logoFooter {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 
