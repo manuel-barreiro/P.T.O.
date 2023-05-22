@@ -1,7 +1,11 @@
+let body = document.querySelector("body");
+body.style.backgroundColor = '#B1B1E0';
+
 // Cambio color header mientras bajo
 
 window.addEventListener('scroll', function() {
     let header = document.getElementById('site-header');
+    let body = document.querySelector("body");
     let sections = document.getElementsByClassName('section');
     let currentPosition = window.pageYOffset;
     let offset = 120; // Ajusta este valor según tus necesidades
@@ -19,6 +23,7 @@ window.addEventListener('scroll', function() {
   
         // Establecer el color de fondo del encabezado
         header.style.backgroundColor = backgroundColor;
+        body.style.backgroundColor = backgroundColor;
         break;
       }
     }
