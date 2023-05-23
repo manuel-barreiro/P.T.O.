@@ -56,26 +56,44 @@ productCard.addEventListener('click', function() {
 
 // scrollIntoView pantalla > 1024px
 
-document.querySelector('.logoPto').addEventListener('click', () => {
-  document.querySelector('#hero').scrollIntoView({behavior:'smooth', block:'start'})
-} )
+// document.querySelector('.logoPto').addEventListener('click', () => {
+//   document.querySelector('#hero').scrollIntoView({behavior:'smooth', block:'start'})
+// } )
 
-document.querySelector('#logoFooter').addEventListener('click', () => {
-  document.querySelector('#hero').scrollIntoView({behavior:'smooth', block:'start'})
-} )
+// document.querySelector('#logoFooter').addEventListener('click', () => {
+//   document.querySelector('#hero').scrollIntoView({behavior:'smooth', block:'start'})
+// } )
 
-document.querySelector('#home').addEventListener('click', () => {
-  document.querySelector('#hero').scrollIntoView({behavior: 'smooth', block:'start'})
-} )
+// document.querySelector('#home').addEventListener('click', () => {
+//   document.querySelector('#hero').scrollIntoView({behavior: 'smooth', block:'start'})
+// } )
 
-document.querySelector('#whoAreWe').addEventListener('click', () => {
-  document.querySelector('#quienesSomos').scrollIntoView({behavior:'smooth', block:'start'})
-} )
+// document.querySelector('#whoAreWe').addEventListener('click', () => {
+//   document.querySelector('#quienesSomos').scrollIntoView({behavior:'smooth', block:'start'})
+// } )
 
-document.querySelector('#services').addEventListener('click', () => {
-  document.querySelector('#nuestrosServicios').scrollIntoView({behavior:'smooth', block:'start'})
-} )
+// document.querySelector('#services').addEventListener('click', () => {
+//   document.querySelector('#nuestrosServicios').scrollIntoView({behavior:'smooth', block:'start'})
+// } )
 
-document.querySelector('#contact').addEventListener('click', () => {
-  document.querySelector('#contacto').scrollIntoView({behavior:'smooth', block:'start'})
-} )
+// document.querySelector('#contact').addEventListener('click', () => {
+//   document.querySelector('#contacto').scrollIntoView({behavior:'smooth', block:'start'})
+// } )
+
+// smooth scroll
+
+$(document).ready(function() {
+  $('a').on('click', function(event) {
+    if (this.hash !== '') {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});

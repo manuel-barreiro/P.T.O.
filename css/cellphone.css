@@ -314,3 +314,55 @@
     }
 
   }
+
+  /* Servicios */
+
+  @media(max-width:1024px){
+
+    .alineacionMobile {
+      padding: 10vh 5vw 10vh 5vw;
+  } 
+
+    #landfarming {
+      display: flex;
+      height: 100vh;
+      justify-content: space-around;
+      background-color: white;
+      align-items: center;
+      flex-direction: column-reverse;
+  }
+
+    #servPiletasApi {
+      display: flex;
+      height: 100vh;
+      justify-content: space-between;
+      background-color: #3b39a5;
+      color: white;
+      align-items: center;
+      flex-direction: column;
+  }
+
+    #servSecadoBarros {
+      display: flex;
+      height: 100vh;
+      justify-content: space-around;
+      background-color: white;
+      align-items: center;
+      flex-direction: column-reverse;
+  }
+
+    #servBiopila {
+      display: flex;
+      height: 100vh;
+      justify-content: space-between;
+      background-color: #3b39a5;
+      color: white;
+      align-items: center;
+      flex-direction: column;
+  }
+   
+    #barrosServImg {
+      width: 214px;
+    }
+
+  }

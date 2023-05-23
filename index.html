@@ -16,7 +16,8 @@
 	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cellphone.css">
     <link rel="stylesheet" href="css/animations.css">
-
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,10 +33,10 @@
                     <img src="img/ptoLogo.png" class="logoPto" alt="logo">
                 </div>
                 <ul class="nav-menu">
-                    <li class="nav-item"><a class="nav-link" id="home" >Home</a></li>
-                    <li class="nav-item"><a class="nav-link" id="whoAreWe">¿Quiénes somos?</a></li>
-                    <li class="nav-item"><a class="nav-link" id="services">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" id="contact">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" id="home" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" id="whoAreWe" href="index.html#quienesSomos">¿Quiénes somos?</a></li>
+                    <li class="nav-item"><a class="nav-link" id="services" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" id="contact" href="#contacto">Contacto</a></li>
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -50,7 +51,7 @@
             <section id="hero" class="alineacion section">
                 <div id="heroTextDiv">
                     <p class="text-focus-in">LÍDER EN TRATAMIENTO DE RESIDUOS POR <span class="ultraNegrita">BIODEGRADACIÓN ORGÁNICA</span></p>
-                    <button type="button" class="btn btn-primary p-3 fade-in-bottom">Conocé más sobre nosotros</button>
+                  <a href="index.html#quienesSomos"><button type="button" class="btn btn-primary p-3 fade-in-bottom">Conocé más sobre nosotros</button></a>  
                 </div>
             </section>
             <section class="curved"></section>
@@ -63,7 +64,7 @@
 
 
             <section id="quienesSomosFoto">
-                <img src="img/Waste.png" alt="pto">
+                <img src="img/ptoBoss.jpg" alt="pto">
             </section>
 
             <section id="quienesSomosTexto">
@@ -203,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-                <button id="botonServicios" type="button" class="btn btn-primary p-3 rounded">Conocé nuestros servicios</button>
+             <a href="servicios.html"><button id="botonServicios" type="button" class="btn btn-primary p-3 rounded">Conocé nuestros servicios</button></a> 
             </section>
 
         </section>
