@@ -80,20 +80,22 @@ productCard.addEventListener('click', function() {
 //   document.querySelector('#contacto').scrollIntoView({behavior:'smooth', block:'start'})
 // } )
 
-// smooth scroll
+// smooth scroll\
 
-$(document).ready(function() {
-  $('a').on('click', function(event) {
-    if (this.hash !== '') {
-      event.preventDefault();
+// no funciona cuando quiero ir a una seccion específica de otro html
 
-      var hash = this.hash;
+// $(document).ready(function() {
+//   $('a').on('click', function(event) {
+//     if (this.hash !== '') {
+//       event.preventDefault();
 
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
-    }
-  });
-});
+//       var hash = this.hash;
+
+//       $('html, body').animate({
+//         scrollTop: $(hash).offset().top
+//       }, 800, function(){
+//         window.location.hash = hash;
+//       });
+//     }
+//   });
+// });

@@ -325,7 +325,7 @@
 
     #landfarming {
       display: flex;
-      height: 100vh;
+      height: auto;
       justify-content: space-around;
       background-color: white;
       align-items: center;
@@ -334,7 +334,7 @@
 
     #servPiletasApi {
       display: flex;
-      height: 100vh;
+      height: auto;
       justify-content: space-between;
       background-color: #3b39a5;
       color: white;
@@ -344,7 +344,7 @@
 
     #servSecadoBarros {
       display: flex;
-      height: 100vh;
+      height: auto;
       justify-content: space-around;
       background-color: white;
       align-items: center;
@@ -353,7 +353,7 @@
 
     #servBiopila {
       display: flex;
-      height: 100vh;
+      height: auto;
       justify-content: space-between;
       background-color: #3b39a5;
       color: white;
@@ -362,7 +362,7 @@
   }
    
     #barrosServImg {
-      width: 214px;
+      width: 300px;
     }
 
   }
