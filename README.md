@@ -13,8 +13,6 @@ Visit https://pto.com.ar/
 
 **Tech used:** HTML, CSS, JavaScript
 
-This was the first development project I did.
-
 ## Optimizations
 
 I consistently refactor and optimize my code, sometimes for efficiency, sometimes for readability.
