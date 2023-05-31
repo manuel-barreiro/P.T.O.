@@ -131,7 +131,8 @@ nav > ul > li > a {
   align-items: center;
   justify-content: flex-start;
   align-items: center;
-  background-color: #B1B1E0;
+  color: #fff;
+  background-color: #5351ba;
   /* border-bottom-left-radius: 50% 10%;
   border-bottom-right-radius: 50% 10%; */
 }
@@ -155,7 +156,7 @@ nav > ul > li > a {
 
 .curved {
   position: relative;
-  background: #B1B1E0;
+  background: #5351ba;
   height: 10vh;
   margin-top: -1rem;
   border-bottom-left-radius: 50% 44%;
@@ -339,13 +340,14 @@ footer {
 /*  SERVICIOS */
 
 #serviciosHero {
-  background-color: #B1B1E0;
+  background-color: #5351ba;
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  color: white;
 }
 
 #serviciosHero > * {
